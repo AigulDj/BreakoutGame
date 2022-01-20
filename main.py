@@ -26,7 +26,6 @@ livesboard.start_game()
 
 
 def play():
-
     playsound('sound/next-level.wav', False)
     game_on = True
     livesboard.update_lives()
@@ -85,8 +84,8 @@ def play():
                 ball.speed_up()
 
 
-screen.onkey(paddle.go_left, 'Left')
-screen.onkey(paddle.go_right, 'Right')
+screen.onkeypress(paddle.go_left, 'Left')
+screen.onkeypress(paddle.go_right, 'Right')
 screen.onkey(play, 'space')
 paddle.ondrag(paddle.dragging)
 screen.listen()

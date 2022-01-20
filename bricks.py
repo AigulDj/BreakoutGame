@@ -10,7 +10,7 @@ class Brick(Turtle):
         self.penup()
         self.speed('fastest')
         self.goto(x, y)
-        self.shapesize(1, 3, 5)  # obj = 20px = ratio 1
+        self.shapesize(0.8, 3, 5)  # obj = 20px = ratio 1
         self.color(choice(self.colors))
         self.bricks_lst = []
 
@@ -26,7 +26,7 @@ class Brick(Turtle):
             for _ in range(n):
                 self.bricks_lst.append(Brick(x1, y1))
                 x1 += 68
-            y1 -= 28
+            y1 -= 24
 
     def hide(self):
         #self.speed('slow')
