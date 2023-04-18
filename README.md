@@ -1,5 +1,5 @@
 # BreakoutGame
-
+![](https://res.cloudinary.com/dskqecu6i/image/upload/v1681838052/game_d2dg8d.gif)
 An engaging game built using Python and the Turtle Graphics Module that challenges players to break down a wall using a ball and paddle while earning points for each level passed.
 
 Progressive ball speed and score tracking enhance player engagement and satisfaction, providing a challenging and rewarding experience for players.
